@@ -115,7 +115,7 @@ export function CartProvider({ children }: CartProviderProps): JSX.Element {
 
       }
     } catch {
-       toast.error('Erro na anteração de quantidade do produto');
+       toast.error('Erro na alteração de quantidade do produto');
     }
   };
 
